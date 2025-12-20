@@ -31,7 +31,7 @@ public class Cliente {
             String entrada_usuario;
             while ((entrada_usuario = Teclado.readLine()) != null) {
                 Saida.println(entrada_usuario);
-                if (entrada_usuario.equalsIgnoreCase("|sair")) {
+                if (entrada_usuario.equalsIgnoreCase("/sair")) {
                     break;
                 }
             }

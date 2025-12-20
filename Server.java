@@ -1,6 +1,5 @@
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.io.IOException;
@@ -94,21 +93,6 @@ public class Server{
                 System.out.println("Cliente desconectado: " + nickname);
             }
         
-
-        /*(while(true){
-
-            /*System.out.println("Cliente conectado: " + Cliente.getInetAddress());  //-Retorna o endereço ao qual o soquete está conectado-//
-            BufferedReader Entrada = new BufferedReader(new InputStreamReader(Cliente.getInputStream())); 
-            PrintWriter Saida = new PrintWriter(Cliente.getOutputStream(), true); 
-
-            String Mensagem = Entrada.readLine(); 
-            System.out.println("Recebido: " + Mensagem); 
-            
-            Saida.println("Servidor recebeu: " + Mensagem); 
-            Cliente.close();
-        }*/
-
-    
         }
     }
 }
